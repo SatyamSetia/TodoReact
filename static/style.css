@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Overpass:200i,300i,800i');
+
+.mainBox{
+	background: #812c44;
+	width: 100%;
+	height: 90%;
+	margin:	0px;
+}
+
+.tab-button{
+	width:50%;
+	height: 40px;
+	margin-top:8px;
+	margin-bottom:8px;
+	outline:none;
+	border: 2px solid #f5c7ee;
+	color: #F8EEE7;
+	font-family: 'Lobster Two', cursive;
+	font-size: 17px;
+	padding:6px;
+}
+
+.active-button{
+	background:#f5c7ee;
+	color: #812c44;
+}
+
+.passive-button{
+	background:rgba(0,0,0,0);
+	color:#f5c7ee;
+}
+
+.form-active{
+	display: block;
+}
+
+.form-passive{
+	display: none;
+}
+
+input{
+	width:100%;
+	height: 40px;
+	margin-top:6px;
+	margin-bottom:6px;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid #f5c7ee;
+	color: #f5c7ee;
+	font-family: 'Lobster Two', cursive;
+	font-size: 17px;
+	padding:8px;
+	outline: none;
+	vertical-align: middle;
+}
+
+input::placeholder{
+	color: #f5c7ee;
+}
+
+.blank-right{
+	height:30%;
+}
+
+.blank-left{
+	height:15%;
+}
+
+.title-part1{
+	color: #f5c7ee;
+	font-family: 'Overpass', sans-serif;
+	font-weight: lighter;
+	font-size: 50px;
+	margin:0px;
+}
+
+.title-part2{
+	color: #f5c7ee;
+	font-family: 'Overpass', sans-serif;
+	font-size: 80px;
+	margin:0px;
+}
+
+.title-part3{
+	color: #f5c7ee;
+	font-family: 'Overpass', sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.image{
+	height: 60%;
+	width: 60%;
+}
+
+
+
